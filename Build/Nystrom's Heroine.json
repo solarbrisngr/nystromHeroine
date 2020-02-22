@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Nystrom's Heroine",
+"productVersion": "0.1",
+"dataUrl": "Nystrom's Heroine.data.unityweb",
+"wasmCodeUrl": "Nystrom's Heroine.wasm.code.unityweb",
+"wasmFrameworkUrl": "Nystrom's Heroine.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0f6"
+}
