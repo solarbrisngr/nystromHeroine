@@ -28,5 +28,23 @@ public class StandingPlayerState : IPlayerState
             DuckingPlayerState duckingState = new DuckingPlayerState();
             duckingState.Enter(player);
         }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            DodgeRightPlayerState dodgeState = new DodgeRightPlayerState();
+            dodgeState.Enter(player);
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            DodgeLeftPlayerState dodgeState = new DodgeLeftPlayerState();
+            dodgeState.Enter(player);
+        }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            DipPlayerState dipState = new DipPlayerState();
+            dipState.Enter(player);
+        }
     }
 }
